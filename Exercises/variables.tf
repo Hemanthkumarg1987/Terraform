@@ -1,23 +1,9 @@
-variable "filename" {
-    default = "./test3.txt"
-    
-}
+variable "filename" {}
 
-variable "content" {
-    default = "using tfvars test"
-}
+variable "content" {}
 
-variable "prefix" {
-    default = "Mr"
-  
-}
+variable "prefix" {}
 
-variable "seperator" {
-    default = "."
-  
-}
+variable "seperator" {}
 
-variable "length" {
-    default = "1"
-  
-}
+variable "length" {}
