@@ -4,11 +4,11 @@ resource "local_file" "games" {
 }
 
 resource "random_pet" "my-pet" {
-  prefix = var.prefix
+  prefix    = var.prefix
   separator = var.seperator
-  length = var.length
+  length    = var.length
 }
 
-output pet-name {
+output "pet-name" {
   value = random_pet.my-pet.id
 }
